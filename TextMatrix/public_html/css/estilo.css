@@ -25,3 +25,32 @@ div{
     text-align:justify;
     
 }
+
+
+.bloco1 {
+    -webkit-animation-name: bloco1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 60s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    animation-name: bloco1;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bloco1 {
+    
+    0%{position:absolute; top:-550%;}
+    100%{position:absolute; top:100%;}
+    
+}
+
+/* Standard syntax */
+@keyframes bloco1 {
+    
+    0%{position:absolute; top:-550%;}
+    100%{position:absolute; top:100%;}
+   
+}
+
+
+
